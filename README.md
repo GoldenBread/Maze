@@ -17,11 +17,16 @@ Génération et résolution de labyrinthe selon les algorithmes suivants :
 ```
 ### Résolution
 ```
-./astar/solver
-./largeur/solver
-./profondeur/solver
+./astar/solver maze.txt
+./largeur/solver maze.txt
+./profondeur/solver maze.txt
 ```
-
+### Légende
+```
+X : murs
+* : cases libres
+o : chemin de solution
+```
 Projet individuel.
 
 KEYWORD [C]
